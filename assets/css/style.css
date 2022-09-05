@@ -4,14 +4,19 @@ html {
     background-color: white;
     font-family: 'Days One', sans-serif;
     font-family: 'Russo One', sans-serif;
-    background-image: url("../images/BGI2.jpg");
+    background-image: url("../images/BGI1.jpg");
 }
 
 /* Navbar Styling */
 a.navbar-brand {
     font-size: 24px;
 }
-
+nav.navbar{
+    background-color: #670e42;
+}
+div#navbarTogglerDemo02 {
+    justify-content: flex-end;
+}
 /* Card styling */
 div.col.mb-4 {
     text-align: center;
