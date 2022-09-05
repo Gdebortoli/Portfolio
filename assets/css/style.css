@@ -3,8 +3,8 @@ body, html {
     background-color: white;
     font-family: 'Days One', sans-serif;
     font-family: 'Russo One', sans-serif;
-    
-}
+    background-image: url("../images/BGI2.jpg");
+}    
 /* Box-Sizing - From bootstrap */
 .selector-for-some-widget {
     box-sizing: content-box;
