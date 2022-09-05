@@ -1,4 +1,24 @@
+/* Applies to Entire Page */
 body, html { 
     background-color: white;
+    font-family: 'Days One', sans-serif;
     font-family: 'Russo One', sans-serif;
+    
 }
+/* Box-Sizing - From bootstrap */
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  /* Navbar Styling */
+  a.navbar-brand {
+    font-size: 24px;
+  }
+  /* Card styling */
+  .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
