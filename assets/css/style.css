@@ -1,24 +1,19 @@
 /* Applies to Entire Page */
-body, html { 
+body,
+html {
     background-color: white;
     font-family: 'Days One', sans-serif;
     font-family: 'Russo One', sans-serif;
-    
+    background-image: url("../images/BGI2.jpg");
 }
-/* Box-Sizing - From bootstrap */
-.selector-for-some-widget {
-    box-sizing: content-box;
-  }
-  /* Navbar Styling */
-  a.navbar-brand {
+
+/* Navbar Styling */
+a.navbar-brand {
     font-size: 24px;
-  }
-  /* Card styling */
-  .card-columns {
-    @include media-breakpoint-only(lg) {
-      column-count: 4;
-    }
-    @include media-breakpoint-only(xl) {
-      column-count: 5;
-    }
-  }
+}
+
+/* Card styling */
+div.col.mb-4 {
+    text-align: center;
+    padding-left: 100px;
+}
