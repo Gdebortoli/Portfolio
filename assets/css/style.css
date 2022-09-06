@@ -105,9 +105,17 @@ h2.title {
     color: rgb(30, 16, 60)
 }
 
-p,
+p, 
 .btn {
     font-size: 20px;
     color: whitesmoke;
 }
 /* Contact me Footer */
+div.column {
+    text-align: center;
+}
+medium {
+    font-size: 20px;
+    color: rgb(30, 16, 60);
+    text-decoration: underline;
+}
