@@ -1,8 +1,7 @@
 /* Applies to Entire Page */
 body,
 html {
-    font-family: 'Days One', sans-serif;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Jura', sans-serif;
     background-image: url("../images/BGI1.jpg");
 }
 
@@ -23,17 +22,12 @@ html {
 }
 
 /* Navbar Styling */
+
 a.navbar-brand {
     font-size: 24px;
 }
 
-/* div#navbarTogglerDemo02 {
-} */
-/* Card styling */
-/* div.col.mb-4 {
-    text-align: center;
-    padding-left: 100px;
-} */
+/* Project Content Section */
 div {
     display: block;
 }
@@ -65,6 +59,7 @@ div.col {
     margin-right: 25px;
 }
 
+/* To make the image larger when you hover */
 .img {
     z-index: 999;
     cursor: pointer;
@@ -72,17 +67,22 @@ div.col {
     -webkit-transition-duration: 0.3s;
     -webkit-transition-timing-function: ease;
 }
+
 .img:hover {
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
+
 h2.title {
-    font-size: 25px;
+    font-size: 30px;
+    font-weight:900;
+    text-decoration: underline;
     margin-top: 0px;
     margin-bottom: 20px;
+    color:rgb(30, 16, 60)
 }
 
 p,
 .btn {
-    font-size: 12px;
-
+    font-size: 20px;
+    color: whitesmoke;
 }
