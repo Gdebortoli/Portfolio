@@ -3,6 +3,7 @@ body,
 html {
     font-family: 'Jura', sans-serif;
     background-image: url("../images/BGI1.jpg");
+    ;
 }
 
 * {
@@ -27,14 +28,37 @@ a.navbar-brand {
     font-size: 24px;
 }
 
+/* Photo Styling */
+.jumbotron, h1.display-4 {
+    max-width: fit-content;
+    background-color: transparent;
+    color: rgb(30, 16, 60)
+}
+
+h3 {
+    color: #ffffff;
+}
+img.rounded.float-right.img-fluid {
+    margin-top: 85px;
+}
+h5.lead, h3, h1.display-4 {
+    text-align: center;
+}
 /* Project Content Section */
+h1.proj, .footer {
+    font-size: xxx-large;
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+    color: rgb(30, 16, 60);
+    border: #ffffff 3px solid;
+}
 div {
     display: block;
 }
 
 div.col {
     margin-bottom: 20px;
-
 }
 
 .content {
@@ -74,11 +98,11 @@ div.col {
 
 h2.title {
     font-size: 30px;
-    font-weight:900;
+    font-weight: 900;
     text-decoration: underline;
     margin-top: 0px;
     margin-bottom: 20px;
-    color:rgb(30, 16, 60)
+    color: rgb(30, 16, 60)
 }
 
 p,
@@ -86,3 +110,4 @@ p,
     font-size: 20px;
     color: whitesmoke;
 }
+/* Contact me Footer */
