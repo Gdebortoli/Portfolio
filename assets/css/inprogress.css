@@ -1,0 +1,40 @@
+/* Page Styles */
+Body,
+html {
+    font-family: 'Unica One',cursive;
+    background-image: url("");
+}
+body, html {
+    background-size: cover;
+    position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   background-attachment:fixed;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 5px;
+}
+
+/* Homepage Button */
+button.button {
+    font-family: inherit; 
+      font-size: 100%; 
+      overflow: visible;
+      text-align: center;
+      top: 50%;
+      left: 45%;
+      Right: 45%;
+      float:none;
+      display: grid;
+      font-weight: bold;
+    }
+/* Title */
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: xxx-large;
+}
