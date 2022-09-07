@@ -1,9 +1,8 @@
 /* Applies to Entire Page */
 body,
 html {
-    font-family: 'Jura', sans-serif;
-    background-image: url("../images/BGI1.jpg");
-    ;
+    font-family: 'Unica One',cursive;
+    background-image: url("../images/pawel-czerwinski-7K8d5gCdy2o-unsplash.jpg");
 }
 
 * {
@@ -25,7 +24,7 @@ html {
 /* Navbar Styling */
 
 a.navbar-brand {
-    font-size: 24px;
+    font-size: 35px;
 }
 
 /* Photo Styling */
