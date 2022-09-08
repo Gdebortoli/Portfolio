@@ -2,11 +2,10 @@
 Body,
 html {
     font-family: 'Unica One',cursive;
-    background-image: url("");
+    background-image: url("../images/BGI1.jpg");
 }
 body, html {
     background-size: cover;
-    position: center;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -20,21 +19,21 @@ body, html {
 }
 
 /* Homepage Button */
-button.button {
+button.button.btn.btn-secondary {
     font-family: inherit; 
       font-size: 100%; 
       overflow: visible;
       text-align: center;
-      top: 50%;
-      left: 45%;
-      Right: 45%;
-      float:none;
-      display: grid;
+      display: list-item;
+      margin-left: auto;
+      margin-right: auto;
       font-weight: bold;
     }
 /* Title */
 h1 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
     font-size: xxx-large;
 }
