@@ -1,4 +1,120 @@
-body, html { 
-    background-color: white;
-    font-family: 'Russo One', sans-serif;
+/* Applies to Entire Page */
+body,
+html {
+    font-family: 'Unica One',cursive;
+    background-image: url("../images/pawel-czerwinski-7K8d5gCdy2o-unsplash.jpg");
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 5px;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    .title {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
+
+/* Navbar Styling */
+
+a.navbar-brand {
+    font-size: 35px;
+}
+
+/* Photo Styling */
+.jumbotron, h1.display-4 {
+    max-width: fit-content;
+    background-color: transparent;
+    color: rgb(30, 16, 60)
+}
+
+h3 {
+    color: #ffffff;
+}
+img.rounded.float-right.img-fluid {
+    margin-top: 85px;
+}
+h5.lead, h3, h1.display-4 {
+    text-align: center;
+}
+/* Project Content Section */
+h1.proj, .footer {
+    font-size: xxx-large;
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+    color: rgb(30, 16, 60);
+    border: #ffffff 3px solid;
+}
+div {
+    display: block;
+}
+
+div.col {
+    margin-bottom: 20px;
+}
+
+.content {
+    width: 50%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.resources {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.img {
+    max-width: 250px;
+    max-height: 250px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* To make the image larger when you hover */
+.img {
+    z-index: 999;
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+}
+
+.img:hover {
+    transform: scale(1.25);
+}
+
+h2.title {
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: underline;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: rgb(30, 16, 60)
+}
+
+p, 
+.btn {
+    font-size: 20px;
+    color: whitesmoke;
+}
+/* Contact me Footer */
+div.column {
+    text-align: center;
+}
+medium {
+    font-size: 20px;
+    color: rgb(30, 16, 60);
+    text-decoration: underline;
 }

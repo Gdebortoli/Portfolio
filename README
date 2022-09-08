@@ -26,12 +26,20 @@ GIVEN I need to sample a potential employee's previous work:
 ### Screenshots 
 
 #### This is main page of my portfolio
-<!-- Make sure to resize the pictures so they fit appropriately  -->
-![](./assets/####)
 
-#### This is what the side pages link to
+![Homepage](./assets/images/Screenshots/Homepage.png)
 
-![](./assets/####)
+#### Projects Section
+
+![Projects](./assets/images/Screenshots/Projects.png)
+
+#### Contact Section
+
+![Contact Me](./assets/images/Screenshots/Contact.png)
+
+#### In-Production Section
+
+![In Production](./assets/images/Screenshots/inproduction.png)
 
 ### Link to deployed application 
 

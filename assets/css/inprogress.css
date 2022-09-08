@@ -1,0 +1,39 @@
+/* Page Styles */
+Body,
+html {
+    font-family: 'Unica One',cursive;
+    background-image: url("../images/BGI1.jpg");
+}
+body, html {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   background-attachment:fixed;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 5px;
+}
+
+/* Homepage Button */
+button.button.btn.btn-secondary {
+    font-family: inherit; 
+      font-size: 100%; 
+      overflow: visible;
+      text-align: center;
+      display: list-item;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: bold;
+    }
+/* Title */
+h1 {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: xxx-large;
+}
